@@ -4,3 +4,6 @@ This is my 1st repository during my life than I am clicking and typing slowly.
 Do not take it so seriously cause I will learn on it.
 My plan is to create second repo for public files - bledner documentation with translation into Czech languge (po-mo files).
 
+See stepbystep.batch file with echoing each step from the building process.
+
+rst2pdf, Sphinx, Python and others are in neigbourhood. File stepbystep.bat and source/conf.py are keys for html+pdf compilation.

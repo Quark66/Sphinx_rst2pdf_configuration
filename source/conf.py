@@ -289,6 +289,7 @@ texinfo_documents = [
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
 
+# -- THIS IS MAIN REASON FOR PUBLISHING ON GIT -------------------------------
 # -- Options for PDF output --------------------------------------------------
 # Grouping the document tree into PDF files. List of tuples
 # (source start file, target name, title, author, options).
@@ -304,13 +305,12 @@ texinfo_documents = [
 # would mean that specific document would be compressed
 # regardless of the global pdf_compressed setting.
 pdf_documents = [
-('index', u'Moje_kniha', u'Vzorový dokument', u'Quark66'),
+('index', u'My_printable_book', u'Sample document\nCreated by Sphinx,rst2pdf', u'Quark66'),
 ]
 # A comma-separated list of custom stylesheets. Example:
 pdf_stylesheets = ['sphinx','quark','a4']
 
-pdf_doc_author = [u'Pako pakovič']
-
+# pdf_doc_author = [u'Pako pakovič']
 
 # A list of folders to search for stylesheets. Example:
 pdf_style_path = ['.', '_styles']
